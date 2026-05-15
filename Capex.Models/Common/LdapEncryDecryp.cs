@@ -13,9 +13,7 @@
             return encoded;
 
         }
-
-
-        #region MyRegion
+        #region MyRegion yyyy
         public string Decodestring(string DeDataVal)
         {
             string encoded = "";
