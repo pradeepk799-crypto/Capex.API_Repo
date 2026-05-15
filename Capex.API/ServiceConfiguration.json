@@ -1,0 +1,138 @@
+{
+  "Services": [
+    {
+      "ServiceName": "Samagra",
+      "Methods": [
+        {
+          "MethodName": "SamagraDetailsByMemberId",
+          "MemberUrl": "http://webservices.samagra.gov.in/CommonWeb/CommonApi.svc/G3tSamagraD3tails",
+          "FamilyUrl": "http://webservices.samagra.gov.in/CommonWeb/CommonApi.svc/G3tSamagraFamilyDetails",
+          "encryptionKey": "20221109",
+          "TokenKey": "09112022",
+          "serviceCode": "WSCOMMMDS10003",
+          "deptCode": "MPMPSEDC01",
+          "applicationCode": "ESERVICESE",
+          "familyencryptionKey": "20230612",
+          "familyTokenKey": "12062023",
+          "familyserviceCode": "WSMPFMDCOM0017",
+          "familydeptCode": "MPMPSEDC01",
+          "familyapplicationCode": "ANUKAMPALL"
+
+        }
+      ]
+    },
+    {
+      "ServiceName": "WebGIS",
+      "Methods": [
+        {
+          "MethodName": "getKhasraList",
+          "MethodURL": "https://webgisqc.co.in/RCMS/MAPIT/"
+          //"MethodURL": "https://mpbhulekh.gov.in/RCMS/MAPIT/"
+
+        },
+        {
+          "MethodName": "getKhasraDetails",
+          "MethodURL": "https://webgisqc.co.in/RCMS/MAPIT/"
+         // "MethodURL": "https://mpbhulekh.gov.in/RCMS/MAPIT/"
+
+        },
+        {
+          "MethodName": "getOwnerDetails",
+          "MethodURL": "https://webgisqc.co.in/RCMS/MAPIT/"
+         // "MethodURL": "https://mpbhulekh.gov.in/RCMS/MAPIT/"
+
+        },
+        {
+          "MethodName": "getBasraDetailList",
+          //"MethodURL": "https://webgisqc.co.in/RCMS/MAPIT/"
+          "MethodURL": "https://mpbhulekh.gov.in/RCMS/MAPIT/"
+
+        }
+      ]
+    },
+    {
+      "ServiceName": "AadharEkyc",
+      "AadharCreadential": [
+        {
+          "ProdOTPGen": "https://103.94.204.65/uid-services/otp/generate-request",
+          "ProdOTPAUTH": "https://103.94.204.65/uid-services/auth/authenticate",
+          "ProdEkyc": "https://mpparichai.gov.in/uid-services/kyc/ekyc",
+          "PreProdOTPGen": "http://103.94.204.79/uid-services/otp/generate-request",
+          "PreProdOTPAUTH": "http://103.94.204.79/uid-services/auth/authenticate",
+          "PreProdEkyc": "https://103.94.204.79/uid-services/kyc/ekyc",
+          "Tid": "public",
+          "SA": "MPPENSGP01",
+          "DomainId": "123456789",
+          "LK": "MLq5ilMhq6eKrWq1TxN5qMyRsxtaZDbh4BKs6QblT1Dtfc77zY3L7hM",
+          "DeptCode": ""
+
+        }
+      ]
+    },
+    {
+      "ServiceName": "KeyAuthentication",
+      "Authkey": [
+        {
+          "Key": "MLq5ilMhq6eKrWq1TxN5qMy"
+        }
+      ]
+    },
+    {
+      "ServiceName": "KeyAuthenticationIGRS",
+      "AuthkeyIGRS": [
+        {
+          "Key": "MLq5ilMhq6eKrWq1IGrsqMy"
+        }
+      ]
+    },
+    {
+      "ServiceName": "SMS",
+      "SMSKeys": [
+        {
+          "SMSURL": "https://msdgweb.mgov.gov.in/esms/sendsmsrequestDLT",
+          "SmsUser": "DITMP-MPURJA",
+          "SmsPassword": "MPURJA#123",
+          "SmsSenderId": "MPURJA",
+          "SmsSecureKey": "e756fcc8-ad98-4dc8-b6ae-761052e08be8",
+          "EnableSms": "false",
+
+          "TemplateId_CDAC": "1307162306607858651",
+          "Airtel_EnableSms": "true",
+          "Airtel_SMSURL": "http://digimate.airtel.in:15181/BULK_API/SendMessage",
+          "Airtel_SMS_Login_ID": "mprcms_api",
+          "Airtel_SMS_Password": "mprcms@123",
+          "Airtel_SMS_SENDER_ID": "MPSEVA",
+          "Airtel_SMS_PRINCIPAL_ENTITY_ID": "1301157865539646244",
+          "Airtel_SMS_DLT_GOVT": "DLT_GOVT",
+          "Airtel_SMS_CAMPAIGN_NAME": "mp_service",
+          "Airtel_SMS_DLT_TM_ID": "1001096933494158",
+          "OTPExpiry": "10",
+          "FUsKey": "A!&@e%#?"
+        }
+      ]
+    },
+    {
+      "ServiceName": "Email",
+      "EmailKeys": [
+        {
+          "EnableEmail": "true",
+          "EmailId": "chaudharyvipul2010@gmail.com",
+          "EmailPassword": "qrsfecuaxzapybmt",
+          "MailServer": "smtp.gmail.com",
+          "Port": "587"
+        }
+      ]
+    },
+    {
+      "ServiceName": "WhatsApp",
+      "WhatsAppKeys": [
+        {
+          "WhatsappURL": "https://media.smsgupshup.com/GatewayAPI/rest",
+          "WhatsAppUserid": "2000194911",
+          "WhatsAppPwd": "xM4JR6FH"
+        }
+      ]
+    }
+  ]
+
+}

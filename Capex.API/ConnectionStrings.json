@@ -1,0 +1,8 @@
+{
+  "ConnectionStrings": {
+    "MasterDBConnectionString": "server=10.125.241.45\\MSSQLSERVER2017, 1444;database=CAPEX; user id=CAPEX;Password=XEPAC#4213;Min Pool Size=1;Max Pool Size=1000"
+    //"MasterDBConnectionString": "server=LAPTOP-478HO1O4;database=capexnew; user id=sa;Password=sa123;Min Pool Size=1;Max Pool Size=1000"
+    //"SAARADBConnectionString": ""
+  },
+  "RedisURL": "127.0.0.1:6379"
+}

@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdharDisclosure" xml:space="preserve">
+    <value>I hereby declare that I am required to authenticate myself with the Aadhaar based authentication system on the Samagra Portal and provide my Aadhaar number, biometric, and/or One-Time PIN (OTP) data after Aadhaar based authentication. There is no objection in giving consent. I also agree that Samagra Social Security Mission can use my Aadhaar number to establish and authenticate my identity.I hereby consent to sharing my Aadhaar e-KYC details with other State or Central Government departments only for the purpose of availing Government services and/or Government scheme benefits.</value>
+  </data>
+  <data name="Err00000" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="Err00001" xml:space="preserve">
+    <value>There is some technical problem! Please try again!</value>
+  </data>
+  <data name="Err00002" xml:space="preserve">
+    <value>Invalid Password.</value>
+  </data>
+  <data name="Err00003" xml:space="preserve">
+    <value>Invalid mobile number.</value>
+  </data>
+  <data name="Err00004" xml:space="preserve">
+    <value>New password and confirmed password did not match.</value>
+  </data>
+  <data name="Err00005" xml:space="preserve">
+    <value>The old password and the new password should not be the same.</value>
+  </data>
+  <data name="Err00006" xml:space="preserve">
+    <value>Old password did not match.</value>
+  </data>
+  <data name="Err00007" xml:space="preserve">
+    <value>The new password should not be the same as the old password.</value>
+  </data>
+  <data name="Err00008" xml:space="preserve">
+    <value>Record updated successfully.</value>
+  </data>
+  <data name="Err00009" xml:space="preserve">
+    <value>Record saved successfully.</value>
+  </data>
+  <data name="Err00010" xml:space="preserve">
+    <value>Invalid user ID and password.</value>
+  </data>
+  <data name="Err00011" xml:space="preserve">
+    <value>Role name already exists.</value>
+  </data>
+  <data name="Err00012" xml:space="preserve">
+    <value>Role and menu permission saved successfully.</value>
+  </data>
+  <data name="Err00013" xml:space="preserve">
+    <value>Role and menu permissions updated successfully.</value>
+  </data>
+  <data name="Err00014" xml:space="preserve">
+    <value>Oops Something went wrong.</value>
+  </data>
+  <data name="Err00015" xml:space="preserve">
+    <value>Role name already exists in activated or deactivated records.</value>
+  </data>
+  <data name="Err00016" xml:space="preserve">
+    <value>OTP has been sent successfully.</value>
+  </data>
+  <data name="Err00017" xml:space="preserve">
+    <value>You have successfully logged in.</value>
+  </data>
+  <data name="Err00018" xml:space="preserve">
+    <value>The record has been successfully deactivated.</value>
+  </data>
+  <data name="Err00020" xml:space="preserve">
+    <value>Invalid user ID.</value>
+  </data>
+  <data name="Err00021" xml:space="preserve">
+    <value>The role has been successfully deactivated.</value>
+  </data>
+  <data name="Err00022" xml:space="preserve">
+    <value>The role has been successfully activated.</value>
+  </data>
+  <data name="Err00023" xml:space="preserve">
+    <value>I am unable. To load captcha.</value>
+  </data>
+  <data name="Err00024" xml:space="preserve">
+    <value>Captcha validation has been done successfully.</value>
+  </data>
+  <data name="Err00025" xml:space="preserve">
+    <value>Captcha validation failed.</value>
+  </data>
+  <data name="Err00026" xml:space="preserve">
+    <value>OTP Verification Field.</value>
+  </data>
+  <data name="Err00027" xml:space="preserve">
+    <value>User ID is already activated in the record.</value>
+  </data>
+  <data name="Err00028" xml:space="preserve">
+    <value>Samagra ID has been successfully authenticated.</value>
+  </data>
+  <data name="Err00029" xml:space="preserve">
+    <value>The user has been successfully registered. User ID and password have been sent to your email/mobile</value>
+  </data>
+  <data name="Err00030" xml:space="preserve">
+    <value>Complete data not received.</value>
+  </data>
+  <data name="Err00031" xml:space="preserve">
+    <value>Office save successfully.</value>
+  </data>
+  <data name="Err00032" xml:space="preserve">
+    <value>Office update completed successfully.</value>
+  </data>
+  <data name="Err00033" xml:space="preserve">
+    <value>Office name exists in records.</value>
+  </data>
+  <data name="Err00034" xml:space="preserve">
+    <value>User email ID is already entered. Please provide another email ID.</value>
+  </data>
+  <data name="Err00035" xml:space="preserve">
+    <value>File upload failed.</value>
+  </data>
+  <data name="Err00036" xml:space="preserve">
+    <value>File uploaded successfully!</value>
+  </data>
+  <data name="Err00038" xml:space="preserve">
+    <value>Email ID and employee code is already entered.</value>
+  </data>
+  <data name="Err00039" xml:space="preserve">
+    <value>The employee has joined successfully.</value>
+  </data>
+  <data name="Err00040" xml:space="preserve">
+    <value>Record not received.</value>
+  </data>
+  <data name="Err00041" xml:space="preserve">
+    <value>Password change successful.</value>
+  </data>
+  <data name="Err00042" xml:space="preserve">
+    <value>Jurisdiction saved successfully.</value>
+  </data>
+  <data name="Err00043" xml:space="preserve">
+    <value>Jurisdiction saved successfully.</value>
+  </data>
+  <data name="Err00044" xml:space="preserve">
+    <value>User already registered.</value>
+  </data>
+  <data name="Err00045" xml:space="preserve">
+    <value>Mobile number is already entered.</value>
+  </data>
+  <data name="Err00046" xml:space="preserve">
+    <value>Jurisdiction update completed successfully.</value>
+  </data>
+  <data name="Err00047" xml:space="preserve">
+    <value>Record deactivated successfully.</value>
+  </data>
+  <data name="Err00048" xml:space="preserve">
+    <value>Your e-KYC is not updated. Please update your e-KYC on Samagra portal. Then after that create your account.</value>
+  </data>
+  <data name="Err00049" xml:space="preserve">
+    <value>Mobile number is not updated on Samagra portal.</value>
+  </data>
+  <data name="Err00050" xml:space="preserve">
+    <value>User registered successfully. User ID and password have been sent to your email/mobile</value>
+  </data>
+  <data name="Err00051" xml:space="preserve">
+    <value>N-R-I details updated successfully.</value>
+  </data>
+  <data name="Err00052" xml:space="preserve">
+    <value>OTP verified successfully.</value>
+  </data>
+  <data name="Err00053" xml:space="preserve">
+    <value>Please enter valid OTP.</value>
+  </data>
+  <data name="Err00054" xml:space="preserve">
+    <value>Email ID is already entered.</value>
+  </data>
+  <data name="Err00055" xml:space="preserve">
+    <value>Passport already registered.</value>
+  </data>
+  <data name="Err00056" xml:space="preserve">
+    <value>The OTP has been reset.</value>
+  </data>
+  <data name="Err00057" xml:space="preserve">
+    <value>OTP has been sent to your mobile number and email, it is valid for 1 minute.</value>
+  </data>
+  <data name="Err00058" xml:space="preserve">
+    <value>You are already logged in to another system/browser.</value>
+  </data>
+  <data name="Err00059" xml:space="preserve">
+    <value>A user cannot login on more than one device.</value>
+  </data>
+  <data name="Err00060" xml:space="preserve">
+    <value>Complete data received.</value>
+  </data>
+  <data name="Err00061" xml:space="preserve">
+    <value>OTP has been sent to your email, it is valid for 1 minute.</value>
+  </data>
+  <data name="Err00062" xml:space="preserve">
+    <value>OTP has been sent to your mobile number, it is valid for 1 minute.</value>
+  </data>
+  <data name="Err00063" xml:space="preserve">
+    <value>Please enter valid OTP.</value>
+  </data>
+  <data name="Err00064" xml:space="preserve">
+    <value>Employee registration has been done successfully.</value>
+  </data>
+  <data name="Err0065" xml:space="preserve">
+    <value>Username and password do not match. Please enter correct credentials.</value>
+  </data>
+  <data name="UserIdExists" xml:space="preserve">
+    <value>UserId already exists in records</value>
+  </data>
+</root>
