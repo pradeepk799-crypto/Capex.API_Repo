@@ -15,8 +15,7 @@
         }
 
 
-
-
+        #region MyRegion
         public string Decodestring(string DeDataVal)
         {
             string encoded = "";
@@ -27,6 +26,9 @@
             return encoded;
 
         }
+
+
+        #endregion
 
 
         public string Param1 { get; set; }
